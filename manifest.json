@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Trigger The Reload Lesson Button",
+  "version": "1.0.0",
+  "description": "Triggers the reload lesson button on TypingClub",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "trigger-reload": {
+      "suggested_key": {
+        "default": "Alt+R"
+      },
+      "description": "Trigger the reload lesson button"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "trigger-reload@ilies.local",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
