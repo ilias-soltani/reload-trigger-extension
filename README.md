@@ -1,6 +1,6 @@
 # Reload Lesson
 
-I got ragepaited by typing club so i made a firefox extension that reloads the lesson faster :) .
+I got ragebaited by typing club so i made a firefox extension that reloads the lesson faster :) .
 
 ## Files
 
